@@ -1,36 +1,39 @@
-<!DOCTYPE html>
-<html lang="zh">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>聊天机器人</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            background-color: #f0f0f0;
-        }
-        h1 {
-            color: #333;
-        }
-        iframe {
-            width: 80%;
-            height: 600px;
-            border: none;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-    </style>
-</head>
-<body>
 
-    <h1>欢迎使用聊天机器人</h1>
-    <iframe src="https://huggingface.co/spaces/Zixiao666/chatbot_501" title="聊天机器人"></iframe>
+<style>  
+  .jumbotron {  
+    background-color: #000; /* 假设背景为黑色，可以根据需要调整 */  
+    color: white;  
+    text-align: center;  
+    padding: 20px; /* 添加一些内边距 */  
+  }  
+  .jumbotron img {  
+    max-width: 100%; /* 使图片响应式 */  
+    height: auto; /* 保持图片比例 */  
+  }  
+  /* 定义链接的默认颜色（未访问） */  
+  a {  
+    color: #666666; /* 暗灰色 */  
+    text-decoration: none; /* 移除下划线，如果需要的话 */  
+  }  
+  /* 可以添加更多链接状态的颜色，如:hover, :visited 等 */  
+  a:hover {  
+    color: #999999; /* 鼠标悬停时的颜色，可以略亮于默认颜色 */  
+  }  
+</style>  
+  
+<div class="jumbotron">  
+  <h1>WELCOME TO MY WEBSITE</h1>  
+  <p><img src="https://cdn.steamstatic.com/steamcommunity/public/images/items/2375550/1a76f9b7f07ee12d33bf452c2dc8ed0f4721c246.jpg" alt="描述性文字"></p>  
+</div>  
 
-</body>
-</html>
+<script
+  type="module"
+  src="https://gradio.s3-us-west-2.amazonaws.com/4.41.0/gradio.js"
+></script>
+
+<gradio-app src="https://HoveyWang-test.hf.space" theme_mode="light"></gradio-app>
+
+<p style="text-align:center;">  
+  <a href="https://www.ln.edu.hk/" target="_blank">Lingnan University</a>  
+</p>
+
